@@ -116,14 +116,19 @@ footer{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 1px solid #f2f2f2;
+    border: .5px solid #f2f2f2;
     margin: 1rem;
+    align-items: center;
 }
 
 #IG:hover{
     background-color: #dd2a7b;
     transform: scale(1.3);
     transition: 0.5s;
+}
+#IG:active{
+    background-color: #6c123a;
+    transition: 1.5s;
 }
 
 #FB:hover{
