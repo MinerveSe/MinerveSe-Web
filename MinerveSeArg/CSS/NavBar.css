@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.header{
+    background-color: #EC0101;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 50px;
+    margin-top: 12px;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 20px;
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #D8D9CF;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #f9f9f9;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.header .btn button:hover{
+    background: #D8D9CF;
+    transform: scale(1.1);
+}
